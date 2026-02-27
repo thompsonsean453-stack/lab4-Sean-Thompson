@@ -26,11 +26,6 @@ int main(int argc, char **argv) {
     int *arr = NULL;
     if (n > 0) {
         arr = (int *)malloc((size_t)n * sizeof(int));
-        if (!arr) {
-            fprintf(stderr, "Error: malloc failed.\n");
-            fclose(fp);
-            return 1;
-        }
     }
 
     for (long i = 0; i < n; i++) {
