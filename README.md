@@ -13,3 +13,8 @@ This lab implements a program that reads a list of integers from a file and prin
 The input file must contain:
 1. A non-negative integer n on the first line (the count).
 2. Exactly n integers** after that.
+3. Compile
+From the project folder, run:
+bash
+gcc -Wall -Wextra -O2 -no-pie -o lab4 main.c sum_array.s
+./lab4 data.txt
